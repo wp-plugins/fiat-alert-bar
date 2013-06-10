@@ -1,5 +1,5 @@
 === Fiat Alert Bar ===
-Contributors: benzumdahl, andrewhaines
+Contributors: benzumdahl
 Donate link: http://fiatinsight.com/
 Tags: alert, notification, attention bar, notice, notification bar, heads up, alert bar, alert box, custom post
 Requires at least: 3.0
@@ -7,18 +7,18 @@ Tested up to: 3.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create an alert bar that can be edited like a normal post and placed anywhere in your site via shortcode.
+Create an alert bar that can be edited like a normal post and placed anywhere in your site via the [fiatalert] shortcode.
 
 == Description ==
 
 Create an alert notification bar anywhere in your website. Place the shortcode in a page, post, widget or template file one time. Then use the Alert post function in the dashboard to create and edit alerts, which will appear wherever you've placed the short code.
 
-This plugin uses a custom post type to generate the alert so editing the alert is as easy as creating a post or page.
+This plugin uses a custom post type to generate the alert so editing the alert is as easy as creating a post or page. This is an intentionally light weight plugin (no jquery or javascript of its own) that aims to avoid theme or plugin conflicts.
 
-This is an intentionally light weight plugin (no jquery or javascript of its own) that aims to avoid theme or plugin conflicts.
+Install the plugin. Embed the shortcode in a page or post as [fiatalert] or in a template file '<?php echo do_shortcode
+('[fiatalert]');?>'. 
 
-Install the plugin. Embed the shortcode in a page or post as '[fiatalert]' or in a template file '<?php echo do_shortcode
-('[fiatalert]');?>'. Create an alert in the WordPress dashboard using the new Alerts custom post type. The content or body of the alert will appear where you have placed the shortcode. WYSIWYG styling will be passed through (including text align center and links).
+Create an alert in the WordPress dashboard using the new Alerts custom post type. The content or body of the alert will appear where you have placed the shortcode. WYSIWYG styling will be passed through (including text align center and links).
 
 If you create multiple alerts only the most recent one will be displayed. If you do not want any alert displayed then delete or trash all alerts that you have created (you can always restore the alert later and it will become immediately activated).
 
@@ -39,13 +39,6 @@ For more information please visit http://fiatinsight.com/plugins/fiat-alert
 == Frequently Asked Questions ==
 
 = How do I edit the style of the alert? =
-
-There are four preconfigured colors. The default color is red. Use the others by adding a class to the shortcode:
-
-'[fiatalert]…[/fiatalert]'
-'[fiatalert style="blue"]…[/fiatalert]'
-'[fiatalert style="green"]…[/fiatalert]'
-'[fiatalert style="yellow"]…[/fiatalert]'
 
 For more customization, override the styling of the classes '.fiat-alert' and '.fiat-alert h3' in your stylesheet. Use '!important' if necessary.
 
@@ -75,3 +68,6 @@ be good as new!
 
 = 1.0 =
 Initial release.
+
+= 1.1 =
+Updates to read me file.
