@@ -15,8 +15,8 @@ Create an alert notification bar anywhere in your website. Place the shortcode i
 
 This plugin uses a custom post type to generate the alert so editing the alert is as easy as creating a post or page. This is an intentionally light weight plugin (no jquery or javascript of its own) that aims to avoid theme or plugin conflicts.
 
-Install the plugin. Embed the shortcode in a page or post as [fiatalert] or in a template file '<?php echo do_shortcode
-('[fiatalert]');?>'. 
+Install the plugin. Embed the shortcode in a page or post as `[fiatalert]` or in a template file `<?php echo do_shortcode
+('[fiatalert]');?>`. 
 
 Create an alert in the WordPress dashboard using the new Alerts custom post type. The content or body of the alert will appear where you have placed the shortcode. WYSIWYG styling will be passed through (including text align center and links).
 
@@ -26,9 +26,9 @@ For more information please visit http://fiatinsight.com
 
 == Installation ==
 
-1. Upload the "fiatalert" plugin folder to the "/wp-content/plugins" folder of your WordPress installation.
+1. Upload the `fiatalert` plugin folder to the `/wp-content/plugins` folder of your WordPress installation.
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Choose the location where you want the alert to appear. Place the shortcode '[fiatalert]' in a page or post or
+1. Choose the location where you want the alert to appear. Place the shortcode `[fiatalert]` in a page or post or
 place `<?php echo do_shortcode('[fiatalert]');?>` in a template file.
 1. In the WordPress dashboard click on "Alerts" and "Add New"
 1. Enter your desired alert message in the body of the alert (not the title). Only text entered into the body will appear.
@@ -40,7 +40,7 @@ For more information please visit http://fiatinsight.com/plugins/fiat-alert
 
 = How do I edit the style of the alert? =
 
-For more customization, override the styling of the classes '.fiat-alert' and '.fiat-alert h3' in your stylesheet. Use '!important' if necessary.
+For more customization, override the styling of the classes `.fiat-alert` and `.fiat-alert h3` in your stylesheet. Use `!important` if necessary.
 
 = How do I remove the alert? =
 
