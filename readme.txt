@@ -38,6 +38,10 @@ For more information please visit http://fiatinsight.com/plugins/fiat-alert
 
 == Frequently Asked Questions ==
 
+= Where will the alert appear? =
+
+The alert appears wherever you choose! Simply embed the shortcode `[fiatalert]` in a page or post or embed `<?php echo do_shortcode('[fiatalert]');?>` in a template file. No alert will be visible on your website until you create one using the "Alerts" menu in the dashboard.
+
 = How do I edit the style of the alert? =
 
 For more customization, override the styling of the classes `.fiat-alert` and `.fiat-alert h3` in your stylesheet. Use `!important` if necessary.
@@ -71,3 +75,6 @@ Initial release.
 
 = 1.1 =
 Updates to read me file.
+
+= 1.2 =
+Added FAQs link on the plugins page and updated FAQs.
