@@ -78,3 +78,6 @@ Updates to read me file.
 
 = 1.2 =
 Added FAQs link on the plugins page and updated FAQs.
+
+= 1.3 =
+Added widget support for shortcode
