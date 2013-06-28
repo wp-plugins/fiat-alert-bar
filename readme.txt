@@ -20,7 +20,7 @@ Install the plugin. Embed the shortcode in a page or post as `[fiatalert]` or in
 
 Create an alert in the WordPress dashboard using the new Alerts custom post type. The content or body of the alert will appear where you have placed the shortcode. WYSIWYG styling will be passed through (including text align center and links).
 
-If you create multiple alerts only the most recent one will be displayed. If you do not want any alert displayed then delete or trash all alerts that you have created (you can always restore the alert later and it will become immediately activated).
+If you create multiple alerts only the most recent one will be displayed. If you do not want any alert displayed then change the status of each alert to "draft".
 
 For more information please visit http://fiatinsight.com
 
@@ -48,11 +48,11 @@ For more customization, override the styling of the classes `.fiat-alert` and `.
 
 = How do I remove the alert? =
 
-Delete the alert in the WordPress dashboard.
+Change the alert's status to "draft" or delete the alert.
 
 = I can't get the alerts to go away! =
 
-You must delete all alerts that you have created so that no alert will be shown.
+You must either change each alert's status to "draft" and/or delete all the alerts so that no alert will be shown.
 
 = What if I create multiple alerts? =
 
@@ -60,8 +60,7 @@ Only the most recent alert will be shown.
 
 = Can I save an alert for later? =
 
-Yes. When you delete or trash an alert it is moved to the Alert trash bin. Click on "trash" and restore the alert. It'll
-be good as new!
+Yes. Edit the alert and change it's status to "draft" so that it is not published.
 
 == Screenshots ==
 
