@@ -33,6 +33,7 @@ function fiatalert_func( $content ) {
 	$loop = new WP_Query( $args );
 	while ( $loop->have_posts() ) : $loop->the_post();
 	echo '<div class="fiat-alert">';
+	echo '<button type="button" class="close" data-dismiss="alert" style="padding: 20px 15px 0 0;">&times;</button>';
 	the_content();
 	echo '</div>';
 	endwhile;

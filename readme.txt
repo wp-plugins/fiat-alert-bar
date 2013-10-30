@@ -3,7 +3,7 @@ Contributors: benzumdahl
 Donate link: http://fiatinsight.com/
 Tags: alert, notification, attention bar, notice, notification bar, heads up, alert bar, alert box, custom post
 Requires at least: 3.0
-Tested up to: 3.5.1
+Tested up to: 3.7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,3 +80,6 @@ Added FAQs link on the plugins page and updated FAQs.
 
 = 1.3 =
 Added widget support for shortcode
+
+= 1.4 =
+Added close “x” to remove alert bar (requires Bootstrap JS)
