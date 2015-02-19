@@ -3,8 +3,8 @@ Contributors: benzumdahl
 Donate link: http://fiatinsight.com/
 Tags: alert, notification, attention bar, notice, notification bar, heads up, alert bar, alert box, custom post
 Requires at least: 3.0
-Tested up to: 3.7.1
-Stable tag: 1.4
+Tested up to: 4.1.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,3 +84,6 @@ Added widget support for shortcode
 
 = 1.4 =
 Added close “x” to remove alert bar (requires Bootstrap JS)
+
+= 1.5 =
+Added wp_reset_query() to correct issue with post titles
