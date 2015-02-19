@@ -3,7 +3,7 @@
    Plugin Name: Fiat Alert Bar
    Plugin URI: http://fiatinsight.com/plugins/fiat-alert
    Description: Create alerts using a custom post type, which can appear anywhere that you embed the [fiatalert] shortcode in your template.
-   Version: 1.3
+   Version: 1.5
    Author: Fiat Insight
    Author URI: http://fiatinsight.com
    License: GPL2
@@ -37,6 +37,7 @@ function fiatalert_func( $content ) {
 	the_content();
 	echo '</div>';
 	endwhile;
+	wp_reset_query();
 }
 
 //Add Fiat Alert Shortcode
